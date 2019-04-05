@@ -3,4 +3,8 @@ class Snack < ApplicationRecord
 
   has_many :snack_machines
   has_many :machines, through: :snack_machines
+
+  def avg_price
+    
+  end
 end
